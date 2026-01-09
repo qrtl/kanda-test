@@ -1,0 +1,30 @@
+target:
+  owner: qrtl
+  repo: kanda-test
+  base_branch: "18.0"
+
+github:
+  username: kanda999
+  email: kanda@quartile.co
+
+ticket:
+  id: 6302
+
+modules:
+  - oca_repo: web
+    oca_branch: "18.0"
+    module: web_remember_tree_column_width
+
+  - oca_repo: l10n-japan
+    oca_branch: "18.0"
+    module: l10n_jp_summary_invoice
+
+  - oca_repo: l10n-japan
+    oca_branch: "18.0"
+    module: l10n_jp_summary_invoice
+
+  - oca_repo: l10n-japan
+    oca_branch: "18.0"
+    module: l10n_jp_summary_invoice
+
+
