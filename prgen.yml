@@ -18,13 +18,3 @@ modules:
   - oca_repo: l10n-japan
     oca_branch: "18.0"
     module: l10n_jp_summary_invoice
-
-  - oca_repo: l10n-japan
-    oca_branch: "18.0"
-    module: l10n_jp_summary_invoice
-
-  - oca_repo: l10n-japan
-    oca_branch: "18.0"
-    module: l10n_jp_summary_invoice
-
-
