@@ -212,7 +212,7 @@ def main() -> int:
             git_checkout_base(repo_dir, base_branch)
             continue
 
-        run_check(["git", "commit", "-m", f"[ADD] {module}"], cwd=repo_dir)
+        run_check(["git", "commit", "-m", f"[{ticket_id}][ADD] {module}"], cwd=repo_dir)
 
         # Push
         run_check(["git", "push", "-u", "origin", branch], cwd=repo_dir)
